@@ -22,7 +22,6 @@ public class EmailAddressGenerator extends GenericGenerator {
         result.append(RandomStringUtils.randomAlphanumeric(5));
         result.append(".");
         result.append(RandomStringUtils.randomAlphanumeric(3));
-
         return result.toString().toLowerCase();
     }
 }
